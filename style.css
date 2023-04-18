@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+}
+
+/* Example 1*/
+.container{
+    height: 100vh;
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item{
+    background-color: gray;
+    color: white;
+}
+
+
+/* Example 2*/
+.flex-container{
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    /* flex-direction: row-reverse; */
+    /* flex-wrap: wrap; */
+}
+
+.child{
+    width: 200px;
+    height: 50px;
+    background-color: gray;
+    color: white;
+    border: 1px solid black;
+    /* margin: 5px; */
+}
+
+.box1{
+    /* order: 2; */
+    /* flex-grow: 1; */
+    /* flex-shrink: 1; */
+}
+
+.box2{
+    /* order: -1; */
+    /* flex-grow: -2; */
+    /* flex-shrink: 2; */
+}
+
+.box3{
+    /* order: 1; */
+    /* flex-grow: 1; */
+    /* flex-shrink: 1; */
+}
